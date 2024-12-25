@@ -4,7 +4,6 @@ package com.securenotes.prj.models;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import javax.annotation.processing.Generated;
 
 @Entity
 @Data
