@@ -30,7 +30,7 @@ public class NoteServiceImpl implements NoteService {
     }
 
     @Override
-    public void deleteNodeForUser(Long noteId, String username) {
+    public void deleteNoteForUser(Long noteId, String username) {
         noteRepository.deleteById(noteId);
     }
 
